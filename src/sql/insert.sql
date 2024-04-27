@@ -40,5 +40,3 @@ INSERT INTO book_authors (book_id, author_id) VALUES (7, 3);
 INSERT INTO book_authors (book_id, author_id) VALUES (8, 2);
 INSERT INTO book_authors (book_id, author_id) VALUES (9, 4);
 INSERT INTO book_authors (book_id, author_id) VALUES (10, 1);
-
-COMMIT;
