@@ -14,6 +14,8 @@ engine = create_engine(connection_string).execution_options(autocommit=True)
 engine.connect()
 
 # Dropping everything in order I can execute it again
+#Este codigo elimina la creacion de tablas, en funcion de que cada vez que ejecute el codigo pueda visualizar en la consola que se ha creado correctamente
+
 with engine.connect() as con:
     with open("src/sql/drop.sql") as file:
         query = text(file.read())
